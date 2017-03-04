@@ -30,14 +30,14 @@ public class DecoratorGUI {
 
     public void init() {
         fm.setPrice(40000); //defaul car price
-
+        fordMustangCustomizationTextArea.setSize(75,25);
         JFrame jf = new JFrame("FM");
         jf.setContentPane(panel);
         jf.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 
         jf.pack();
         jf.setVisible(true);
-        jf.setSize(1000,700);
+        //jf.setSize(1000,700);
 
         price = fm.getPrice();
 
